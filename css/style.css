@@ -1,0 +1,131 @@
+/* Start Geneal */
+
+/* End Geneal */
+*{
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+}
+
+/* Start Header */
+header{
+    background-color: gray;
+    padding: 15px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+@font-face{
+    font-family: "cairo";
+    src: url("../font/Cairo-VariableFont_slnt\,wght.ttf");
+}
+body{
+    font-family:"cairo",Verdana;
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,117,121,1) 59%, rgba(0,212,255,1) 100%);
+}
+header a{
+    border: 1px solid #fff;
+    border-radius: 5px;
+    color: white;
+    padding: 5px 10px;
+}
+header a:hover{
+    background-color: white;
+    color: gray ;
+}
+header .in_up a{
+    margin-right: 10px;
+}
+/* End Header */
+
+/* Start Product */
+.products {
+    padding-top: 100px;
+}
+.products .product-item .product-box{
+    background-color: gray;
+}
+.products .product-item .product-box{
+    text-align: center;
+}
+.products .product-item .product-box .product-desc h2{
+    font-size: 35px;
+}
+.products .product-item .product-box .product-desc p:not(.counterCart){
+    color: #ccc;
+    text-decoration: underline;
+}
+.products .product-item .product-box .product-img{
+    overflow: hidden;
+    width: 250px;
+    height: 250px;
+    margin: auto;
+}
+.products .product-item .product-box .product-img img{
+  max-width: 100%;
+  height: auto;
+}
+.products .product-item .product-box .product-func{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.products .product-item .product-box .product-func button{
+    background-color: none;
+}
+.products .product-item .product-box .product-func i{
+    font-size: 25px;
+    cursor: pointer;
+}
+/* End Product */
+/* Start User-info */
+.user-info{
+    list-style-type: none;
+    margin: 0;
+    display: none;
+}
+.user-info li{
+    margin-left: 20px;
+}
+.user-info .user-desc i{
+    font-size: 25px;
+    cursor: pointer;
+}
+.user-info .user-desc{
+    position: relative;
+}
+.user-info .user-desc .badge{
+    position:absolute;
+    display: inline-block;
+    background-color: red;
+    padding: 5px;
+    border-radius: 50%;
+    color: #fff;
+    top: -13px;
+    left: -8px;
+}
+/* End User-info */
+
+/* Start Cart Product */
+.carts_product{
+    position: fixed;
+    top:58px;
+    right:0 ;
+    width: 160px;
+    background-color: #555;
+    color: #fff;
+    text-align: center;
+    display: none;
+}
+.carts_product a{
+    display: block;
+}
+.counterCart{
+    font-size: 28px;
+    color:aqua ;
+    font-weight: bold;
+}
+/* End Cart Product */

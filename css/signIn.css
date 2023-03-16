@@ -1,0 +1,22 @@
+.form{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    background-color: gray ;
+    text-align: center;
+    padding: 10px;
+    width: 40%;
+    border-radius: 10px;
+}
+.form input{
+    width: 70%;
+    padding: 5px 10px;
+    outline: none;
+}
+.form form div span{
+    color: #c7c7c7;
+}
+.form form div a{
+    text-decoration: underline;
+}
