@@ -15,4 +15,4 @@ Ecoomerce is a single-page application that you can buy some products , The appl
 
 ## Credits
 
-This project was created by [Gamal Khattab](https://github.com/gamal-hanafi)## Setup and Run
+This project was created by [Gamal Khattab](https://github.com/gamal-hanafi)
